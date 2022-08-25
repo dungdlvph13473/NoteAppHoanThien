@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/add_linear"
+    android:padding="20dp"
+    tools:context=".AddNote">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Note"
+        android:layout_gravity="center"
+        android:textStyle="italic|bold"
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/ed_tenNote"
+        android:hint="Tên Note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"/>
+    <EditText
+        android:id="@+id/ed_ngay"
+        android:hint="Ngày"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"/>
+    <EditText
+        android:id="@+id/ed_ghiChu"
+        android:hint="Ghi Chú"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"/>
+    <Button
+        android:id="@+id/btnColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color"/>
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Save"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
