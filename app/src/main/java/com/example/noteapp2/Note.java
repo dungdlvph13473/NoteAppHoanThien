@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey;
 import java.io.Serializable;
 
 @Entity(tableName = "AppNote")
-public class Note  {
+public class Note {
 
     @PrimaryKey(autoGenerate = true)
     private int id;

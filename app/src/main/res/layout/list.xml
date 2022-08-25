@@ -30,7 +30,6 @@
             android:layout_height="wrap_content"/>
         <TextView
             android:id="@+id/tv_color"
-            android:text="mau"
             android:textSize="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
